@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
+name: Julien Gantner - Personal Site
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+exclude: ['Gemfile','Gemfile.lock','.git','.gitignore']
