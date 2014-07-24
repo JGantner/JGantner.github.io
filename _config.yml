@@ -1,4 +1,4 @@
-name: Julien Gantner - Personal Site
+name: Julien Gantner - notes
 markdown: redcarpet
 highlighter: pygments
 exclude: ['Gemfile','Gemfile.lock','.git','.gitignore']

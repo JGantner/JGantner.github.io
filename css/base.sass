@@ -4,5 +4,57 @@
 @import 'normalize'
 @import 'syntax'
 
-body
-  background-color: #2d3436
+// colors
+$green: rgb(112, 185, 63)
+$dark-blue: #373737
+$light-blue: rgb(0, 160, 193)
+$light-bg: rgb(240, 240,240)
+$dark-gray: rgb(55, 55, 55)
+
+
+// neat settings
+$visual-grid: false
+$visual-grid-color: yellow
+$visual-grid-index: front
+$visual-grid-opacity: 0.3
+
+@import 'bourbon/bourbon'
+@import 'neat/neat'
+
+$mobile: new-breakpoint(max-width 480px 4)
+
+// styles
+
+body, html
+  font-family: 'Open Sans', sans-serif
+  background-color: $light-bg
+  color: $dark-gray
+  font-size: 16px
+
+main
+  @include outer-container
+  @include media($mobile)
+    padding: 0.5em
+
+
+.site-header
+  @include outer-container
+  background-color: $dark-blue
+  border-bottom: 3px solid #bbb
+  border-top: 1px solid transparent
+
+  a, a:hover, a:active, a:visited
+    color: #eee
+    text-decoration: none
+
+  h1
+    margin-top: 0
+    margin-bottom: 0
+    @include span-columns(12)
+    @include media($mobile)
+      padding: 0 0.3em
+
+  .claim
+    font-family: 'Waiting for the Sunrise' sans-serif
+    float: right
+    color: $green
