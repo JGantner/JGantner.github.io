@@ -21,72 +21,44 @@ $visual-grid-opacity: 0.3
 @import 'bourbon/bourbon'
 @import 'neat/neat'
 
-$mobile: new-breakpoint(max-width 480px 4)
-
 // styles
-
-html:before
-  content: ""
-  position: fixed
-  left: 0
-  right: 0
-  z-index: -1
-
-  display: block
-  background-image: url('/img/bg-large.jpg')
-  width: 100%
-  height: 100%
-
-  -webkit-filter: blur(5px)
-  -moz-filter: blur(5px)
-  -o-filter: blur(5px)
-  -ms-filter: blur(5px)
-  filter: blur(5px)
-
-
+*
+  @include box-sizing(border-box)
 
 body, html
-  font-family: Palatino, serif
+  font-family: "Trebuchet MS", sans-serif
   color: $dark-gray
   font-size: 16px
-
-main,aside
-  background-color: $light-bg
+  background-color: #fff
   padding: 1em
 
+
 h1, h2, h3, h4, h5, h6
-  font-family: Tahoma, "Trebuchet MS", sans-serif
+  font-family: Palatino, serif
 
 main
   @include span-columns(9)
-  @include media($mobile)
-    padding: 0.5em
+
+figure
+  margin-bottom: 1.33333333333em
+  img
+    max-width: 100%
+    border-radius: 1em
+  figcaption
+    font-size: .75em
+    text-align: right
+
+.post-date
+  float: right
+  font-size: .75em
+  margin-top: 0
 
 .container
   @include outer-container
 
-.site-header
-  @include clearfix
-  background-color: $dark-blue
-  border-bottom: 3px solid #bbb
-  border-top: 1px solid transparent
-  margin-bottom: 1em
-
-  a, a:hover, a:active, a:visited
-    color: #eee
-    text-decoration: none
-
-  h1
-    margin-top: 0
-    margin-bottom: 0
-    @include span-columns(12)
-    @include media($mobile)
-      padding: 0 0.3em
-
-  .claim
-    font-family: 'Waiting for the Sunrise' sans-serif
-    float: right
-    color: $green
+.post-excrepts
+  list-style: none
+  padding-left: 0
 
 .contact-info
   @include span-columns(3)

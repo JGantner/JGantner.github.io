@@ -4,8 +4,12 @@ title:  "Hello World ;)"
 date:   2014-08-25 08:18:00
 ---
 
-Hello Internets!
-
+<figure class="intro-image">
+  <img src="/img/sunrise-in-the-forest-by-Frank-Wuestefeld.jpg" alt="sunrise in
+  the forest">
+    <figcaption>Good Morning! by <a
+    href="https://www.flickr.com/photos/frank_wuestefeld/">Frank Wuestefeld</a></figcaption>
+</figure>
 As the title implies this is a short introduction to this site and myself. So
 why should you care about this site? To be honest i don't know at the moment.
 My reason to build this site is to experiment a bit with [Github
