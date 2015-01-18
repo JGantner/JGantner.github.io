@@ -26,15 +26,12 @@ $visual-grid-opacity: 0.3
   @include box-sizing(border-box)
 
 body, html
-  font-family: "Trebuchet MS", sans-serif
+  font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, sans-serif
   color: $dark-gray
   font-size: 16px
   background-color: #fff
   padding: 1em
 
-
-h1, h2, h3, h4, h5, h6
-  font-family: Palatino, serif
 
 main
   @include span-columns(9)
@@ -43,10 +40,21 @@ figure
   margin-bottom: 1.33333333333em
   img
     max-width: 100%
-    border-radius: 1em
+    max-height: 20em
   figcaption
     font-size: .75em
-    text-align: right
+
+a
+  color: #7F87AD
+  text-decoration: none
+
+img:
+  max-width: 100%
+
+.highlight
+  border: 1px dashed #B2B6D0
+  padding: 0 1em
+
 
 .post-date
   float: right
@@ -60,8 +68,13 @@ figure
   list-style: none
   padding-left: 0
 
+  li
+    margin-bottom: 5em
+
 .contact-info
   @include span-columns(3)
+  padding-left: 1em
+  border-left: 1px dashed #7F87AD
 
 .round-img
   width: 100%
