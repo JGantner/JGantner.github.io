@@ -1,3 +1,3 @@
 name: Julien Gantner - notes
-markdown: redcarpet
+markdown: kramdown
 exclude: ['Gemfile','Gemfile.lock','.git','.gitignore']
