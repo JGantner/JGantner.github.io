@@ -76,6 +76,7 @@ body {
   main {
     max-width: 80rem;
     margin: 1rem auto;
+    padding: 0 0.5rem 1rem;
   }
 
   table {
