@@ -89,11 +89,11 @@
  <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 954,440 L 1104,440"/>
  <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 954,440 L 1104,440"/>
  <path fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1104,11050 L 1104,440"/>
- <path fill="none" stroke="rgb(129,199,132)" stroke-width="80" stroke-linejoin="round" d="M 1104,11050 L 5127,10342 9150,10342 13173,11050 17196,11050 19208,11050"/>
- <path fill="none" stroke="rgb(56,142,60)" stroke-width="80" stroke-linejoin="round" d="M 1104,11050 L 5127,9635 9150,8220 13173,6805 17196,6099 19208,6099"/>
- <path fill="none" stroke="rgb(255,66,14)" stroke-width="80" stroke-linejoin="round" d="M 1104,11050 L 5127,11050 9150,9635 13173,9635 17196,8927 19208,8927"/>
+ <path fill="none" stroke="rgb(129,199,132)" stroke-width="80" stroke-linejoin="round" d="M 1104,11050 L 5127,10342 9150,10342 13173,11050 17196,11050 19208,11050 21220,11050"/>
+ <path fill="none" stroke="rgb(56,142,60)" stroke-width="80" stroke-linejoin="round" d="M 1104,11050 L 5127,9635 9150,8220 13173,6805 17196,6099 19208,6099 21220,6099"/>
+ <path fill="none" stroke="rgb(255,66,14)" stroke-width="80" stroke-linejoin="round" d="M 1104,11050 L 5127,11050 9150,9635 13173,9635 17196,8927 19208,8927 21220,8927"/>
  <g style="opacity: 0.498039215686275">
-  <path fill="none" stroke="rgb(178,178,178)" stroke-width="80" stroke-linejoin="round" d="M 1104,440 L 5127,2562 9150,5391 13173,6099 17196,7513 19208,7513"/>
+  <path fill="none" stroke="rgb(178,178,178)" stroke-width="80" stroke-linejoin="round" d="M 1104,440 L 5127,2562 9150,5391 13173,6099 17196,7513 19208,7513 21220,7513"/>
  </g>
  <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="674" y="11618"><tspan font-family="Liberation Sans, sans-serif" font-size="353px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">04.03</tspan></tspan></tspan></text>
  <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="2685" y="11618"><tspan font-family="Liberation Sans, sans-serif" font-size="353px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">05.03</tspan></tspan></tspan></text>
